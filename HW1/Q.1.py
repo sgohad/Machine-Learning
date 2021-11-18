@@ -36,7 +36,7 @@ print('The Beta value using CoVariance is '+str(beta))
 # Calculate Beta using linear regression
 model = LinearRegression()
 model.fit( SP500.reshape( -1, 1 ), MCD )
-print('The Beta value using Linear Regression is '+str(model.coef_[0]))
+print('The Beta value using Linear Regression is -- '+str(model.coef_[0]))
 
 
 
